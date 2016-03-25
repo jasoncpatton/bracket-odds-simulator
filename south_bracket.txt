@@ -1,0 +1,16 @@
+1,Kansas
+16,Austin Peay
+8,Colorado
+9,Connecticut
+5,Maryland
+12,South Dakota St.
+4,California
+13,Hawaii
+6,Arizona
+11,Wichita St.
+3,Miami FL
+14,Buffalo
+7,Iowa
+10,Temple
+2,Villanova
+15,UNC Asheville

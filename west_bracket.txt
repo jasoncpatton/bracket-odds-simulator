@@ -1,0 +1,16 @@
+1,Oregon
+16,Holy Cross
+8,Saint Joseph's
+9,Cincinnati
+5,Baylor
+12,Yale
+4,Duke
+13,UNC Wilmington
+6,Texas
+11,Northern Iowa
+3,Texas A&M
+14,Green Bay
+7,Oregon St.
+10,VCU
+2,Oklahoma
+15,Cal St. Bakersfield

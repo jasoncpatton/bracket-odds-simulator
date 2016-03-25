@@ -1,0 +1,16 @@
+1,Virginia
+16,Hampton
+8,Texas Tech
+9,Butler
+5,Purdue
+12,Arkansas Little Rock
+4,Iowa St.
+13,Iona
+6,Seton Hall
+11,Gonzaga
+3,Utah
+14,Fresno St.
+7,Dayton
+10,Syracuse
+2,Michigan St.
+15,Middle Tennessee
