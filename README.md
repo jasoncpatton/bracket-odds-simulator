@@ -10,18 +10,18 @@ KenPom and Sagarin Predictor ratings
 are used to determine a winning percentage for each matchup,
 then outcomes are determined using NumPy's random number generator.
 
-Requirements:
+### Requirements:
 * Python 2.7
 * NumPy
 * SciPy
 * Pandas
 * BeautifulSoup
 
-Usage:
-1. Run sag2kenpom.py - builds the Sagarin to KenPom team name dictionary
-2. Run get_kenpom.py and get_sagarin.py - grabs the latest KenPom and Sagarin ratings
-3. Modify <region>_bracket.txt files (use provided files as examples)
-4. Run bracket_simulation.py - simulates the tournament
+### Usage:
+  1. Run sag2kenpom.py - builds the Sagarin to KenPom team name dictionary
+  1. Run get_kenpom.py and get_sagarin.py - grabs the latest KenPom and Sagarin ratings
+  1. Modify <region>_bracket.txt files (use provided files as examples)
+  1. Run bracket_simulation.py - simulates the tournament
 
 Teams can either be removed or commented out from bracket files 
 for simulating subsequent rounds.
