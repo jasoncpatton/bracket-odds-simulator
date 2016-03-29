@@ -75,7 +75,15 @@ def get_bracket_winners((teams, round0), reseed = True):
     rnd = round0
     output = []
 
-    # Make sure to reseed when doing multiprocessing
+    # Check how many teams there are
+    if   len(teams) == 0:
+        return
+    elif len(teams) == 1:
+        winner = teams[0]
+        output.append((winner, rnd))
+        return output
+
+    # Reseed RNG when doing multiprocessing
     if reseed: random.seed()
 
     while len(teams) > 1:
@@ -110,7 +118,7 @@ if __name__ == '__main__':
         rnds0  = [-(int(log(len(regions),2)) + int(log(len(brackets[region]),2)))
                    for region in regions]
 
-        # Compute regional brackets simulations
+        # Compute regional brackets simulations in parallel
         winners = pool.map(get_bracket_winners, zip(teams, rnds0))
 
         # Store each teams' winnings
